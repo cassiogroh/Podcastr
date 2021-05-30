@@ -1,34 +1,48 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+<h1 align="center">
+  <img alt="podcastr" title="podcastr" src=".github/logo.png" />
+</h1>
 
-## Getting Started
+<p align="center">
+  <img alt="License" src="https://img.shields.io/static/v1?label=license&message=MIT&color=8257E5&labelColor=000000">
 
-First, run the development server:
+ <img src="https://img.shields.io/static/v1?label=NLW&message=05&color=8257E5&labelColor=000000" alt="NLW 05" />
+</p>
 
-```bash
-npm run dev
-# or
-yarn dev
-```
+<br>
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+<p align="center">
+  <img alt="Podcastr" src=".github/podcastr.png" width="100%">
+</p>
 
-You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
+## ✨ Technologies
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.js`.
+This project was developed using the following technologies:
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
+- [React](https://reactjs.org)
+- [Next.js](https://nextjs.org/)
+- [TypeScript](https://www.typescriptlang.org/)
 
-## Learn More
+## 💻 Project
 
-To learn more about Next.js, take a look at the following resources:
+Podcastr is a web app to listen to podcasts. Currently, all the data come from a fake API, which contains 30 episodes of Rockeseat's famous 'Faladev', a podcast that brings content about technology and coding. You can check them out on [Spotify](https://open.spotify.com/show/3TNsKUGlP9YbV1pgy3ACrW) and [Youtube](https://www.youtube.com/watch?v=Wt4zvT6CVx8&list=PL85ITvJ7FLoivA_1YoBrRJbNWajIoR7Os).
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## 🔖 Layout
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+You can check the layout for this project through [this link](https://www.figma.com/file/UwFEntsHpHYJlHNQAQr4gA/Podcastr/duplicate). However, a [Figma](http://figma.com/) account is required to access it.
 
-## Deploy on Vercel
+## 🚀 Getting started
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+- Clone this repo
+- Install dependencies by running `yarn`
+- Start the fake API by running `yarn dev:server`
+- Start the Next.js server by running `yarn dev`
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+Now you can access [`localhost:3000`](http://localhost:3000) on your browser.
+
+## 📄 License
+
+This project is under MIT license. See [LICENSE](LICENSE.md) for more details.
+
+---
+
+Made with ♥ by Rocketseat and recoded by me 👋🏻
